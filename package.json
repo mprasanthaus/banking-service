@@ -1,0 +1,22 @@
+{
+  "name": "mable-banking-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "description": "Project Details:\r This project implements a simple backend service for processing customer account balances and transactions. \r It simulates a lightweight banking system, allowing a batch of money transfers between accounts to be processed from CSV input files.",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
