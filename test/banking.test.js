@@ -52,7 +52,7 @@ describe('Banking System - End-to-End with File Data', () => {
 
     const failed = transactionService.getFailedTransactions();
 
-    //ASSERT there are no failed transactions in this clean dataset
+    // ASSERT there are no failed transactions in this clean dataset
     expect(failed.length).toBe(0);
   });
 });

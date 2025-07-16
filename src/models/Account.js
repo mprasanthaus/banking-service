@@ -1,5 +1,5 @@
 /**
- * Represents a single bank account in the Mable system.
+ * Represents a single bank account in the system.
  * Handles balance updates, withdrawals and deposits.
  */
 class Account {
