@@ -74,7 +74,7 @@ From,To,Amount
 
 ---
 
-## Future possible Improvements
+## Future possible improvements
 
 - Handle malformed or missing data in CSVs
 - Save updated balances to a new CSV file
