@@ -33,8 +33,8 @@ describe('Banking System - End-to-End with File Data', () => {
       balanceMap[acc.accountNumber] = acc.balance;
     });
 
-    // ASSERT the expected balances after applying the transactions
-    expect(balanceMap['1111234522226789']).toBeCloseTo(5000 - 500 + 320.50, 2);  // from + received
+    // ASSERT the expected balances after applying the transactions (from + received)
+    expect(balanceMap['1111234522226789']).toBeCloseTo(5000 - 500 + 320.50, 2);
     expect(balanceMap['1111234522221234']).toBeCloseTo(10000 - 25.60, 2);
     expect(balanceMap['2222123433331212']).toBeCloseTo(550 + 1000, 2);
     expect(balanceMap['1212343433335665']).toBeCloseTo(1200 + 500 + 25.60, 2);
